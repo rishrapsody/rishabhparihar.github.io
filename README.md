@@ -4,7 +4,7 @@
 ### Website Preview
 <p align="center"> 
   <kbd>
-    <a href="https://rishrapsody.github.io" target="_blank"><img src="">
+    <a href="https://rishrapsody.github.io" target="_blank"><img src="examples/preview-image.png">
   </a>
   </kbd>
 </p>
