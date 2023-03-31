@@ -439,13 +439,13 @@
           <div class="col s12 m6 l4">
             <div class="card medium">
               <div class="card-image waves-effect waves-block waves-light">
-                <img alt="quiz app" src="/assets/img/project-quizup-logo-1.png" style="height: 100%; width: 100%" class="activator" />
+                <img alt="sase app" src="/assets/img/sase_app.jpeg" style="height: 100%; width: 100%" class="activator" />
               </div>
               <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Quiz Web-App<i
+                <span class="card-title activator teal-text hoverline">SASE ToolKit<i
                     class="mdi-navigation-more-vert right"></i></span>
                 <p>
-                  A quiz playing web app based on Django
+                  A Python based SASE Platform Testing App
                 </p>
               </div>
               <div class="card-reveal">
@@ -454,17 +454,20 @@
                 <span class="card-title grey-text"><small>Accomplishments</small><i
                     class="mdi-navigation-close right"></i></span>
                 <ul>
-                  <li><b>Tools:</b> Django, HTML, CSS, Bootstrap, SQLite, Heroku</li>
-                  <li>Register/login to the web app(with OAuth-based Google Sign-In).</li>
-                  <li>Play Quiz and see the leaderboard</li>
+                  <li style="font-size:10px"><b>Tools:</b> PyWebIO, Flask, Python, PyTest</li>
+                  <li style="font-size:10px">Tool will initiate traffic mimicking web browser and generate PyTest Report Dashboard</li>
+                  <li style="font-size:10px"><b>URL Filtering Test:</b> Checks if response is 200OK with no redirects to Captive Portal </li>
+                  <li style="font-size:10px"><b>SSL Filtering Test:</b> Checks if response is 200OK and server Cert matching with the SASE Platform Generated </li>
+                  <li style="font-size:10px"><b>Anti Malware Test:</b> Checks if Eicar/Wicar Test Malware files get downloaded from web browser </li>
+                  <li style="font-size:10px"><b>Public IP Test:</b> Checks if traffic is routed from known owned Provider Block(using curl ifconfig.me/ip)</li>
 
                 </ul>
                 <div class="card-action">
-                  <a aria-label="Visit " href="content/test.html" data-position="top"
+                  <a aria-label="Visit " href="https://sasetoolkit.pythonanywhere.com/start_sase_test" data-position="top"
                     data-tooltip="View Online"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
                       class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/rishrapsody/QuizUp"
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/rishrapsody/sasetoolkit"
                     target="_blank" data-position="top" data-tooltip="View Source"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
                       class="fa fa-github"></i></a>
